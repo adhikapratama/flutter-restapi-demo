@@ -1,16 +1,45 @@
-# flutter_api_demo
+# Flutter REST API Demo
 
-A new Flutter project.
+Project Flutter sederhana untuk contoh koneksi ke RESTful API menggunakan HTTP GET.
 
-## Getting Started
+## Fitur
+- Fetch data dari REST API
+- Parsing JSON ke model
+- Menampilkan data ke dalam ListView
+- Struktur folder rapi (model, service, screen)
 
-This project is a starting point for a Flutter application.
+## API yang digunakan
+Public dummy API:
+https://jsonplaceholder.typicode.com/posts
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+- Flutter
+- Dart
+- Package http
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Struktur Folder
+lib/
+├── main.dart
+├── models/
+│   └── post.dart
+├── services/
+│   └── api_service.dart
+└── screens/
+    └── post_screen.dart
+## Cara Menjalankan Project
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone repository
+    git clone <url-repo>
+    cd flutter_api_demo
+
+2. Install dependency
+
+3. Jalankan aplikasi
+
+## Catatan
+- Pastikan koneksi internet aktif
+- Project ini hanya contoh dasar REST API
+- Bisa dikembangkan ke POST, PUT, DELETE, auth, dan backend sendiri (CI4 / Laravel)
+
+## Author
+Adhika Pratama
